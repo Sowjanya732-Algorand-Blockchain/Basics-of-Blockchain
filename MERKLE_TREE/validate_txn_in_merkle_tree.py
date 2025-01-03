@@ -37,16 +37,16 @@ def validate_transaction(transaction, merkle_root, merkle_path):
 # Example Usage
 if __name__ == "__main__":
     # Example transaction
-    transaction = "Tx2: Bob pays Carol 5"
+    transaction = "Tx2: Ram pays Krishna 5"
 
     # Example Merkle Root (calculated previously)
-    merkle_root = "ee6d71f9ea5275db0f5663df61f0590fb99a0f8d452c9b97cf4a95ee1c3e0201"
+    merkle_root = "b24e73c300a489afa5feff6cc1318bbe3ad37b215c034833bab7c9a31d9f0f6a"
 
     # Example Merkle Path for the transaction
     # Format: (sibling hash, direction)
     merkle_path = [
-        ("6e9310005d4c5fe024aa49e3e9e02d214320c0ba7280f7fcc37a21384b903cde", "left"),
-        ("231f5ac0c0f6f1139a5bff89d358620d85a0eaf767608d23f83a07e8479bc94c", "right")
+        ("71894e0b1bac665e17b9880f45a8e38bb791304c1831ec67528a0bdc0593fe3e", "left"),
+        ("f8f50a5a393c27fdd4421dd6acf816933bc4c731ba21ddc79ef2c3029a1aa5f0", "right")
     ]
 
     # Validate the transaction

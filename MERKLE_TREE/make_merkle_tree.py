@@ -34,7 +34,7 @@ def construct_and_print_merkle_tree(transactions):
     return root_hash
 
 # Example transactions
-transactions = ["Tx1: Akash pays Satish 10", "Tx2: Ram pays Krishna 5", "Tx3: Sandeep pays Narendra 2"]
+transactions = ["Tx1: Akash pays Satish 10", "Tx2: Ram pays Krishna 5", "Tx3: Sandeep pays Narendra 2", "Tx4: Sowjanya pays Manasa 10","Tx5: Gopi pays Durga 500"]
 merkle_root = construct_and_print_merkle_tree(transactions)
 
 print("Transactions:", transactions)
